@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="ProductSuite">
+  <test name="AllProuductsTest">
+    <classes>
+	   <class name="tests.AddProductsToCartTest" />
+	   <class name="tests.LoginBeforeCheckout" />
+	   <class name="tests.PlaceOrderRegisterTest" />
+	   <class name="tests.ProductsTest" />
+	   <class name="tests.RegisterBeforeCheckout" />
+	   <class name="tests.RemoveProductFromCart" />
+	   <class name="tests.SearchProductTest" />
+	   <class name="tests.VerifyProductQuantityInCartTest" />      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

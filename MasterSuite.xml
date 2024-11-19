@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="MasterSuite">
+  <test name="All Tests">
+    <classes>
+            <class name="tests.LoginHappyScenario" />
+            <class name="tests.LogoutTest" />
+            <class name="tests.Login_NegativeScenario" />    
+            <class name="tests.AddProductsToCartTest" />
+            <class name="tests.ContactUsTest" />
+            <class name="tests.TestCasesTest" />
+            <class name="tests.LoginBeforeCheckout" />
+            <class name="tests.PlaceOrderRegisterTest" />
+            <class name="tests.ProductsTest" />
+            <class name="tests.RegisterBeforeCheckout" />
+            <class name="tests.RegisterHappyScenario" />
+            <class name="tests.RegisterNegativeScenario" />
+            <class name="tests.RemoveProductFromCart" />
+            <class name="tests.SearchProductTest" />
+            <class name="tests.SubscriptionCartTest" />
+            <class name="tests.SubscriptionTest" />
+            <class name="tests.VerifyProductQuantityInCartTest" />
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
